@@ -28,3 +28,5 @@ p.lead { font-size: 19px; line-height: 1.45; color: var(--ink-muted); margin: 0 
 footer { margin-top: 64px; padding-top: 16px; border-top: 1px solid var(--rule); font-size: 15px; font-weight: 600; color: var(--ink-muted); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; }
 pre { white-space: pre-wrap; font-size: 14px; background: var(--card); border: 1px solid var(--rule); border-radius: 12px; padding: 16px; }
 dl dt { font-weight: 600; margin-top: 16px; } dl dd { margin: 4px 0 0; }
+.warning { margin: 12px 0 4px; padding: 12px 14px; border: 2px solid #b8332a; border-radius: 12px; background: var(--card); color: var(--ink); }
+.warning strong { color: #b8332a; }
