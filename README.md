@@ -2,7 +2,7 @@
 
 The public site for the DotMarks app: overview, privacy policy, support and licences. Static HTML, no build step, served by GitHub Pages at the custom domain in `CNAME`.
 
-Edit the HTML files directly and push to `main`; Pages redeploys within a minute.
+Edit the HTML files directly and push to `main`. Pages redeploys on push.
 
 ## DNS (Fasthosts)
 
@@ -18,4 +18,11 @@ Edit the HTML files directly and push to `main`; Pages redeploys within a minute
 | AAAA | @ | 2606:50c0:8003::153 |
 | CNAME | www | dot-marks.github.io |
 
-Then in the repository's Pages settings confirm the custom domain and enforce HTTPS once the certificate is issued.
+## Custom domain
+
+Prerequisite: the records above resolve.
+
+1. In the repository settings, open Pages and confirm `dotmarks.co.uk` as the custom domain.
+2. Wait for the certificate, then tick Enforce HTTPS.
+
+GitHub's procedure: https://docs.github.com/pages/configuring-a-custom-domain-for-your-github-pages-site
