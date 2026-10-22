@@ -23,7 +23,8 @@ p.lead { font-size: 19px; line-height: 1.45; color: var(--ink-muted); margin: 0 
 .levels li.medium { border-color: var(--blue); } .levels li.medium strong { color: var(--blue); }
 .levels li.test { border-radius: 8px; border-color: var(--ink); }
 .meta { font-size: 15px; font-weight: 600; color: var(--ink-muted); }
-.stores { display: flex; gap: 12px; flex-wrap: wrap; margin: 24px 0; }
+.stores { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; margin: 24px 0; }
+.stores img { display: block; height: 48px; }
 .stores span { display: inline-block; border: 2px solid var(--border); border-radius: 12px; padding: 10px 16px; font-weight: 600; color: var(--ink-muted); }
 footer { margin-top: 64px; padding-top: 16px; border-top: 1px solid var(--rule); font-size: 15px; font-weight: 600; color: var(--ink-muted); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; }
 pre { white-space: pre-wrap; font-size: 14px; background: var(--card); border: 1px solid var(--rule); border-radius: 12px; padding: 16px; }
